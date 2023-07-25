@@ -19,6 +19,8 @@ function getAuthor(author: Post['author']) {
   console.log(`${author.id}-${author.name}`);
 }
 
+getAuthor({id: 1, name: 'abc'});
+
 const post: Post = {
   title: '게시글 제목',
   content: '게시글 내용',
